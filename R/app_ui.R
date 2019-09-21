@@ -1,11 +1,10 @@
 #' @import shiny
 app_ui <- function() {
   tagList(
-    # Leave this function for adding external resources
     golem_add_external_resources(),
-    # List the first level UI elements here
     fluidPage(
-      h1("shinyroom")
+      h1("shinyroom"),
+      mod_image_ui("image_ui_1")
     )
   )
 }
