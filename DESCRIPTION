@@ -7,6 +7,7 @@ License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Imports: 
-    shiny, 
-    golem
+    shiny,
+    golem,
+    imager
 RoxygenNote: 6.1.1
