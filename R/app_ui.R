@@ -3,8 +3,15 @@ app_ui <- function() {
   tagList(
     golem_add_external_resources(),
     fluidPage(
-      h1("shinyroom"),
-      mod_image_ui("image_ui_1")
+      sidebarLayout(
+        mainPanel(
+          h1("shinyroom"),
+          mod_image_ui("image_ui_1")
+        ),
+        sidebarPanel(
+          mod_sample_image_ui("sample_image_ui_1")
+        )
+      )
     )
   )
 }
