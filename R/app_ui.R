@@ -9,6 +9,7 @@ app_ui <- function() {
           mod_image_ui("image_ui_1")
         ),
         sidebarPanel(
+          mod_histogram_ui("histogram_ui_1"),
           mod_sample_image_ui("sample_image_ui_1")
         )
       )
