@@ -19,6 +19,13 @@
       "Repository": "CRAN",
       "Hash": "0fde015f5153e51df44981da0767f522"
     },
+    "Cairo": {
+      "Package": "Cairo",
+      "Version": "1.5-10",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "96f52d02dec05b1e6585ac27a915ff0e"
+    },
     "DT": {
       "Package": "DT",
       "Version": "0.9",
@@ -88,6 +95,13 @@
       "Source": "Repository",
       "Repository": "CRAN",
       "Hash": "2a78bf0825e0088e117520553ceb7fa5"
+    },
+    "bmp": {
+      "Package": "bmp",
+      "Version": "0.3",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "de24ef5df8126f89b9cdc1d670470612"
     },
     "brew": {
       "Package": "brew",
@@ -194,6 +208,20 @@
       "Repository": "CRAN",
       "Hash": "2fa7e591556180db4964ea761268af7c"
     },
+    "downloader": {
+      "Package": "downloader",
+      "Version": "0.4",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "49907781ae2617dd5481b7c21a426d08"
+    },
+    "dplyr": {
+      "Package": "dplyr",
+      "Version": "0.8.3",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "17783831e1e918ab250dcae5dd9c6e03"
+    },
     "ellipsis": {
       "Package": "ellipsis",
       "Version": "0.2.0.1",
@@ -292,12 +320,33 @@
       "Repository": "CRAN",
       "Hash": "5dbd937df2ed15043fd4b49e1e217030"
     },
+    "igraph": {
+      "Package": "igraph",
+      "Version": "1.2.4.1",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "6eb7a604bc33c66dac0611b7ce75ac69"
+    },
+    "imager": {
+      "Package": "imager",
+      "Version": "0.41.2",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "8ef6e00f4445a4214e8ba093b2415741"
+    },
     "ini": {
       "Package": "ini",
       "Version": "0.3.1",
       "Source": "Repository",
       "Repository": "CRAN",
       "Hash": "4a15d8cfc931554fb2e71d66c1313b45"
+    },
+    "jpeg": {
+      "Package": "jpeg",
+      "Version": "0.1-8",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "c5744e03e8ed29c1b66dc47d6cf1b2c8"
     },
     "jsonlite": {
       "Package": "jsonlite",
@@ -425,12 +474,26 @@
       "Repository": "CRAN",
       "Hash": "f214a72af3442fdd3396ceccbb7d7f44"
     },
+    "plogr": {
+      "Package": "plogr",
+      "Version": "0.2.0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "1a8304cc1382ef64e3b710ba589d7bc0"
+    },
     "plyr": {
       "Package": "plyr",
       "Version": "1.8.4",
       "Source": "Repository",
       "Repository": "CRAN",
       "Hash": "37dd0f3aadee2ac99e47168f4bffddb7"
+    },
+    "png": {
+      "Package": "png",
+      "Version": "0.1-7",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "2facb7d8929420c91d1ddc8d4636f787"
     },
     "praise": {
       "Package": "praise",
@@ -488,6 +551,13 @@
       "Repository": "CRAN",
       "Hash": "577b91be8aea851ea27aad3585adef05"
     },
+    "readbitmap": {
+      "Package": "readbitmap",
+      "Version": "0.1.5",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "68412c72e5b7bcd64eb42c195410c6e3"
+    },
     "rematch": {
       "Package": "rematch",
       "Version": "1.0.1",
@@ -508,6 +578,18 @@
       "Source": "Repository",
       "Repository": "CRAN",
       "Hash": "830aa73278dce9beba583bfe57a5c015"
+    },
+    "renv": {
+      "Package": "renv",
+      "Version": "0.7.0-77",
+      "Source": "GitHub",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteRepo": "renv",
+      "RemoteUsername": "rstudio",
+      "RemoteRef": "master",
+      "RemoteSha": "f8ac46b6dafe03902492ad0732b31263f8cd94b0",
+      "Hash": "34ae603c685ddb7ca806c796fb0b47cd"
     },
     "reshape2": {
       "Package": "reshape2",
@@ -634,6 +716,20 @@
       "Source": "Repository",
       "Repository": "CRAN",
       "Hash": "a8d41bd284e21ab7e776d228dc5bac91"
+    },
+    "tidyselect": {
+      "Package": "tidyselect",
+      "Version": "0.2.5",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "dc3fcbc21f04b293e0794e24982cf357"
+    },
+    "tiff": {
+      "Package": "tiff",
+      "Version": "0.1-5",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "352d3426f348f884f7858db6cce080f7"
     },
     "usethis": {
       "Package": "usethis",
