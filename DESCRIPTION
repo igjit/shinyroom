@@ -11,5 +11,6 @@ Imports:
     golem,
     imager,
     dplyr,
-    ggplot2
+    ggplot2,
+    magrittr
 RoxygenNote: 6.1.1
