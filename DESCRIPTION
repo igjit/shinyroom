@@ -9,5 +9,6 @@ LazyData: true
 Imports: 
     shiny,
     golem,
-    imager
+    imager,
+    dplyr
 RoxygenNote: 6.1.1
