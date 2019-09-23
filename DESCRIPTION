@@ -12,5 +12,8 @@ Imports:
     imager,
     dplyr,
     ggplot2,
-    magrittr
+    magrittr,
+    processx
 RoxygenNote: 6.1.1
+Suggests: 
+    testthat
