@@ -28,6 +28,7 @@ mod_histogram_ui <- function(id) {
 mod_histogram_server <- function(input, output, session, image) {
   output$histogram <- renderPlot({
     color_df <- image() %>%
+      reduce_pixel(100) %>%
       as.data.frame %>%
       mutate(color = c("r", "g", "b")[cc])
     ggplot(color_df, aes(x = value, fill = color)) +
