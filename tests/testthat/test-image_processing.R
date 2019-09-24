@@ -12,3 +12,12 @@ test_that("apply_luminance", {
   expect_gt(apply_luminance(image, 0.5) %>% luminance, luminance_before)
   expect_lt(apply_luminance(image, -0.5) %>% luminance, luminance_before)
 })
+
+test_that("apply_tone_curve", {
+  image <- imager::boats
+  luminance_before <- image %>% luminance
+  expect_gt(apply_tone_curve(image, splinefun(c(0, 0.5, 1), c(0, 0.6, 1))) %>% luminance,
+            luminance_before)
+  expect_lt(apply_tone_curve(image, splinefun(c(0, 0.5, 1), c(0, 0.4, 1))) %>% luminance,
+            luminance_before)
+})
