@@ -1,4 +1,5 @@
 #' @import shiny
+#' @importFrom shinyloadermessage withLoaderMessage
 app_ui <- function() {
   tagList(
     golem_add_external_resources(),
@@ -6,7 +7,9 @@ app_ui <- function() {
       sidebarLayout(
         mainPanel(
           h1("shinyroom"),
-          mod_image_ui("image_ui_1")
+          withLoaderMessage(
+            mod_image_ui("image_ui_1")
+          )
         ),
         sidebarPanel(
           mod_histogram_ui("histogram_ui_1"),
