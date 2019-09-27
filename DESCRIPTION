@@ -12,7 +12,8 @@ Imports:
     imager,
     dplyr,
     ggplot2,
-    magrittr
+    magrittr,
+    pkgload
 Remotes:
     igjit/shinyloadermessage
 RoxygenNote: 6.1.1
