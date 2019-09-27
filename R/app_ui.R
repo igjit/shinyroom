@@ -1,9 +1,10 @@
 #' @import shiny
 #' @importFrom shinyloadermessage withLoaderMessage
+#' @importFrom shinythemes shinytheme
 app_ui <- function() {
   tagList(
     golem_add_external_resources(),
-    fluidPage(
+    fluidPage(theme = shinytheme("slate"),
       sidebarLayout(
         mainPanel(
           h1("shinyroom"),
