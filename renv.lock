@@ -189,10 +189,10 @@
     },
     "devtools": {
       "Package": "devtools",
-      "Version": "2.2.0",
+      "Version": "2.2.1",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "9f0275db22b3a3fbf0f4d8017f370b6a"
+      "Hash": "0311cbb64e0ddee9790d8c9922dcbef1"
     },
     "digest": {
       "Package": "digest",
@@ -224,10 +224,10 @@
     },
     "ellipsis": {
       "Package": "ellipsis",
-      "Version": "0.2.0.1",
+      "Version": "0.3.0",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "a7a9b2ae023bf012744c480d3388c0c8"
+      "Hash": "d9e858795a1a4ebfe6960e4514449d40"
     },
     "evaluate": {
       "Package": "evaluate",
