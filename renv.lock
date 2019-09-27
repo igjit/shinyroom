@@ -675,6 +675,13 @@
       "Repository": "CRAN",
       "Hash": "3f96ad878877e005bcf6093c5c7efd9e"
     },
+    "shinythemes": {
+      "Package": "shinythemes",
+      "Version": "1.1.2",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "fd438135f3656d7bf5e854060c13ff56"
+    },
     "sourcetools": {
       "Package": "sourcetools",
       "Version": "0.1.7",

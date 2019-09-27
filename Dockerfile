@@ -11,6 +11,7 @@ RUN apt update && apt install -y \
 RUN install2.r --error \
     golem \
     imager \
+    shinythemes \
  && rm -rf /tmp/downloaded_packages/
 
 RUN R -e 'remotes::install_github("igjit/shinyloadermessage")'
