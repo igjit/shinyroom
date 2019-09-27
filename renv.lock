@@ -680,6 +680,18 @@
       "Repository": "CRAN",
       "Hash": "3f96ad878877e005bcf6093c5c7efd9e"
     },
+    "shinyloadermessage": {
+      "Package": "shinyloadermessage",
+      "Version": "0.0.0.9000",
+      "Source": "GitHub",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteRepo": "shinyloadermessage",
+      "RemoteUsername": "igjit",
+      "RemoteRef": "master",
+      "RemoteSha": "1110ff8d6df30c131a21cd8af3b6b1d75c7635ab",
+      "Hash": "2c0e7592859c557acc352a45d520b11f"
+    },
     "sourcetools": {
       "Package": "sourcetools",
       "Version": "0.1.7",
